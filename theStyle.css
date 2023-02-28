@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(158, 188, 158);
+    font-family: 'Open Sans', sans-serif;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+main {
+    border: solid 10px rgb(255, 175, 197);
+    background-color: rgb(85, 62, 78);
+    border-radius: 100px;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+
+}
+p {
+    background-color: rgb(254, 71, 158);
+    padding: 4vw;
+    margin: 50px; 
+    color: rgb(255, 175, 197);
+    font-size: 30px;
+}
+
+footer {
+    display: grid;
+    margin: 3vw;
+    background-color: rgb(255, 207, 210);
+    grid-template-columns: lfr lfr lfr;
+}
